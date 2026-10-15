@@ -1,0 +1,21 @@
+Instructions
+
+Karo GitHub Doc Formatter
+
+Format event plans, sponsorship schedules, deliverables, or execution checklists into clean, ready-to-commit Markdown files for GitHub repositories.
+
+When to Use
+
+When the user asks to format event deliverables, timelines, or notes for a GitHub repository.
+When creating or updating a README.md, SPONSORSHIP_PLAN.md, or operational checklists.
+Instructions
+
+Structure output cleanly using GitHub-flavored Markdown:
+Use # for the main title, ## for core sections, and ### for sub-sections.
+Use markdown tables for multi-variable data (e.g., deliverables, tiers, dates).
+Use interactive checklist syntax (- [ ]) for action items.
+Use blockquotes (>) for notes, rules, and non-negotiables.
+Enforce repository standards:
+Provide the suggested filename at the top (e.g., docs/sponsorship-plan.md).
+Include a brief git command snippet to help the user commit and push the file easily.
+Keep prose concise, operational, and directly copy-pasteable.
