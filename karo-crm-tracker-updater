@@ -1,0 +1,29 @@
+Formats sponsor leads, pipeline notes, and discovery call logs into structured CSV or markdown tables for Karo. Use when logging new sponsor prospects, updating pipeline stages, or generating CRM sheets.
+
+Instructions
+
+Karo CRM Tracker Updater
+
+Convert raw sponsor research, call notes, and deal updates into standardized CSV or Markdown tables for the #Karo sponsor pipeline.
+
+When to Use
+
+When adding new sponsor leads to the pipeline.
+When updating deal stages after discovery calls or proposal submissions.
+When exporting pipeline summaries to Google Sheets or GitHub trackers.
+Pipeline Schema
+
+Ensure every record adheres to the standardized 12-field schema:
+
+Organisation: Brand name
+Category: Title / Kit / Zone / In-Kind / CSR
+Lead Owner: Assigned team member
+Contact Name & Role: Decision maker details
+Channel: Email / LinkedIn / Warm Intro
+Total Value: Cash + In-Kind estimated value
+Stage: Researching -> First Contact -> Discovery -> Proposal Sent -> Negotiation -> Confirmed -> Fulfilled
+Payment Status: Pending Invoice / Paid 100% / In-Kind Delivered
+Last Contact Date: Date of last interaction
+Next Action: Concrete next step
+Next Action Date: Strict deadline (respecting Nov 6-15 blackout)
+Notes: Specific product integration or CSR notes
